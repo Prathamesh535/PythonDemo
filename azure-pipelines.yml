@@ -28,3 +28,7 @@ steps:
     python -u 'Multiply.py'
   displayName: 'Multiply Two Numbers'
 
+- script: |
+    python -u 'HttpRequest.py'
+  displayName: 'Star Wars Character'
+
