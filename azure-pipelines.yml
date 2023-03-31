@@ -35,6 +35,3 @@ steps:
     pytest
   displayName: 'pytest'
 
-- script: |
-    python -u 'PythonDemo/Multiply.py'
-  displayName: 'Multiply Two Numbers'
