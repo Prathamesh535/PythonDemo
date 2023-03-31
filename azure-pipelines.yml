@@ -25,6 +25,8 @@ steps:
 #   displayName: 'pytest'
 
 - script: |
+    python -m pip install requests
+- script: |
     python -u 'Multiply.py'
   displayName: 'Multiply Two Numbers'
 
